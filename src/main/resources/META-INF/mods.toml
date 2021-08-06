@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="Custom license"
+
+[[mods]]
+modId="advanced_mod"
+version="1.0.0"
+displayName="advanced mod"
+credits="Created by GVspeed"
+displayURL="http://pggrgames.tk"
+authors="GVspeed"
+
+[[dependencies.advanced_mod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

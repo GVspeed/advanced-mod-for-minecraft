@@ -1,0 +1,70 @@
+{
+  "_fv": 18,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "copper-equipments-armor--tools_2",
+    "enableBody": true,
+    "textureBody": "copper-equipments-armor--tools_3",
+    "enableLeggings": true,
+    "textureLeggings": "copper-equipments-armor--tools_4",
+    "enableBoots": true,
+    "textureBoots": "copper-equipments-armor--tools_5",
+    "onHelmetTick": {
+      "name": "CopperArmorHelmetTickEvent"
+    },
+    "onBodyTick": {
+      "name": "CopperArmorBodyTickEvent"
+    },
+    "onLeggingsTick": {
+      "name": "CopperArmorLeggingsTickEvent"
+    },
+    "onBootsTick": {
+      "name": "CopperArmorBootsTickEvent"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:Addons"
+    },
+    "armorTextureFile": "1_14_bronze_armor_layer_1",
+    "helmetName": "Copper Helmet",
+    "bodyName": "Copper Body",
+    "leggingsName": "Copper Leggings",
+    "bootsName": "Copper Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 25,
+    "damageValueHelmet": 2,
+    "damageValueBody": 6,
+    "damageValueLeggings": 5,
+    "damageValueBoots": 2,
+    "enchantability": 9,
+    "toughness": 0.5,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": "block.anvil.break"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:CopperIngot"
+      }
+    ]
+  }
+}

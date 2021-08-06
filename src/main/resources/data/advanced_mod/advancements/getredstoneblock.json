@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:redstone_block"
+    },
+    "title": {
+      "translate": "advancements.getredstoneblock.title"
+    },
+    "description": {
+      "translate": "advancements.getredstoneblock.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "getredstoneblock": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:redstone_block",
+            "count": {
+              "min": 1,
+              "max": 20
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "advanced_mod:getredstone"
+}

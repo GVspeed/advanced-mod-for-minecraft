@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:stone_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.upgrade_2pickaxe.title"
+    },
+    "description": {
+      "translate": "advancements.upgrade_2pickaxe.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "upgrade_2pickaxe": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:stone_pickaxe",
+            "durability": {
+              "min": 0,
+              "max": 16000
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "advanced_mod:upgrade_2pickaxe"
+}

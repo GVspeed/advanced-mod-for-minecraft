@@ -1,0 +1,528 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Beginner",
+      "type": "achievement",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beginner",
+      "path": "~/1"
+    },
+    {
+      "name": "GetSticks",
+      "type": "achievement",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "get_sticks",
+      "path": "~/1"
+    },
+    {
+      "name": "Grassblock",
+      "type": "achievement",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "grassblock",
+      "path": "~/1"
+    },
+    {
+      "name": "Getiron",
+      "type": "achievement",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "getiron",
+      "path": "~/1"
+    },
+    {
+      "name": "CraftanAxe",
+      "type": "achievement",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craftan_axe",
+      "path": "~/1"
+    },
+    {
+      "name": "Firstpickaxe",
+      "type": "achievement",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "firstpickaxe",
+      "path": "~/1"
+    },
+    {
+      "name": "Firsthoe",
+      "type": "achievement",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "firsthoe",
+      "path": "~/1"
+    },
+    {
+      "name": "Firstshowel",
+      "type": "achievement",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "firstshowel",
+      "path": "~/1"
+    },
+    {
+      "name": "Getironblock",
+      "type": "achievement",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "getironblock",
+      "path": "~/1"
+    },
+    {
+      "name": "Getcoal",
+      "type": "achievement",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "getcoal",
+      "path": "~/1"
+    },
+    {
+      "name": "GetCoalblock",
+      "type": "achievement",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "get_coalblock",
+      "path": "~/1"
+    },
+    {
+      "name": "Getgoldingot",
+      "type": "achievement",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "getgoldingot",
+      "path": "~/1"
+    },
+    {
+      "name": "Getgoldblock",
+      "type": "achievement",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "getgoldblock",
+      "path": "~/1"
+    },
+    {
+      "name": "Getredstone",
+      "type": "achievement",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "getredstone",
+      "path": "~/1"
+    },
+    {
+      "name": "Getredstoneblock",
+      "type": "achievement",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "getredstoneblock",
+      "path": "~/1"
+    },
+    {
+      "name": "Getlapis",
+      "type": "achievement",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "getlapis",
+      "path": "~/1"
+    },
+    {
+      "name": "Getlapisblock",
+      "type": "achievement",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "getlapisblock",
+      "path": "~/1"
+    },
+    {
+      "name": "Getdiamond",
+      "type": "achievement",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "getdiamond",
+      "path": "~/1"
+    },
+    {
+      "name": "Getdiamondblock",
+      "type": "achievement",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "getdiamondblock",
+      "path": "~/1"
+    },
+    {
+      "name": "GetNetherite",
+      "type": "achievement",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "get_netherite",
+      "path": "~/1"
+    },
+    {
+      "name": "Getnetheriteblock",
+      "type": "achievement",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "getnetheriteblock",
+      "path": "~/1"
+    },
+    {
+      "name": "Secondfight",
+      "type": "achievement",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "secondfight",
+      "path": "~/1"
+    },
+    {
+      "name": "Upgrade2",
+      "type": "achievement",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "upgrade_2",
+      "path": "~/1"
+    },
+    {
+      "name": "Upgrade2pickaxe",
+      "type": "achievement",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "upgrade_2pickaxe",
+      "path": "~/1"
+    },
+    {
+      "name": "Upgrade2hoe",
+      "type": "achievement",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "upgrade_2hoe",
+      "path": "~/1"
+    },
+    {
+      "name": "Upgrade2shovel",
+      "type": "achievement",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "upgrade_2shovel",
+      "path": "~/1"
+    },
+    {
+      "name": "Copper",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper",
+      "path": "~/copper"
+    },
+    {
+      "name": "Addons",
+      "type": "tab",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "addons",
+      "path": "~/Gui"
+    },
+    {
+      "name": "CopperOre",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_ore",
+      "path": "~/copper"
+    },
+    {
+      "name": "Rawcopper",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rawcopper",
+      "path": "~/copper"
+    },
+    {
+      "name": "CopperIngot",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_ingot",
+      "path": "~/copper"
+    },
+    {
+      "name": "CookedCopperIngot",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cooked_copper_ingot",
+      "path": "~/copper"
+    },
+    {
+      "name": "CopperArmorHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_armor_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CopperArmor",
+      "type": "armor",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/copper"
+    },
+    {
+      "name": "CopperArmorBootsTickEvent",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_armor_boots_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CopperArmorBodyTickEvent",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_armor_body_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CopperArmorLeggingsTickEvent",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_armor_leggings_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EnderiumIngot",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enderium_ingot",
+      "path": "~/enderium"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "advancements.upgrade_2shovel.title": "Upgrade to stone shovel",
+      "advancements.getiron.descr": "farm a bit of Iron",
+      "advancements.getgoldblock.title": "Get gold block",
+      "advancements.getredstone.title": "Get redstone",
+      "advancements.getdiamondblock.descr": "Craft a diamond block",
+      "item.advanced_mod.copper_armor_chestplate": "Copper Body",
+      "advancements.grassblock.descr": "fight for the Advancement!",
+      "advancements.firsthoe.title": "First hoe",
+      "advancements.getiron.title": "Get Iron",
+      "item.advanced_mod.copper_armor_boots": "Copper Boots",
+      "advancements.firsthoe.descr": "Craft a wooden hoe and use it",
+      "advancements.secondfight.title": "Second fight!",
+      "advancements.craftan_axe.title": "First Axe",
+      "advancements.getredstoneblock.title": "Get redstone block",
+      "advancements.getdiamondblock.title": "Get diamond block",
+      "advancements.getdiamond.descr": "Mine diamond",
+      "block.advanced_mod.copper_ore": "Copper Ore",
+      "advancements.getgoldblock.descr": "Craft a Gold block",
+      "item.advanced_mod.copper_armor_helmet": "Copper Helmet",
+      "advancements.getcoal.title": "Get coal",
+      "advancements.beginner.title": "Challange",
+      "advancements.getironblock.title": "Get iron block",
+      "item.advanced_mod.copper_ingot": "Copper Ingot",
+      "advancements.upgrade_2.descr": "Craft a stone Axe and use it",
+      "advancements.upgrade_2shovel.descr": "Craft a stone shovel and use it",
+      "advancements.getnetheriteblock.descr": "Craft a netherite block",
+      "advancements.get_coalblock.title": "Get Coalblock",
+      "advancements.firstpickaxe.descr": "Craft a wooden pickaxe!",
+      "advancements.getgoldingot.descr": "Pick up a gold ingot",
+      "advancements.get_netherite.title": "Get Netherite",
+      "advancements.get_sticks.descr": "Yeah sticks!",
+      "advancements.firstshowel.descr": "Craft a wooden shovel",
+      "item.advanced_mod.copper_armor_leggings": "Copper Leggings",
+      "advancements.get_coalblock.descr": "Craft a coalblock",
+      "advancements.upgrade_2.title": "Upgrade to stone Axe",
+      "advancements.getcoal.descr": "Mine Coal in a mine",
+      "advancements.getlapisblock.title": "Get lapis block",
+      "advancements.firstfight.descr": "fight for the Advancement!",
+      "advancements.getlapis.descr": "Mine lapis",
+      "advancements.getlapis.title": "Get lapis",
+      "advancements.getlapisblock.descr": "Craft lapis block",
+      "advancements.firstshowel.title": "First shovel",
+      "advancements.beginner.descr": "Place oak wood to start the challange",
+      "advancements.upgrade_2hoe.descr": "Craft a stone hoe and use it",
+      "advancements.upgrade_2pickaxe.title": "Upgrade to stone pickaxe",
+      "advancements.upgrade_2pickaxe.descr": "Craft a stone pickaxe and use it",
+      "advancements.upgrade_2hoe.title": "Upgrade to a stone hoe",
+      "advancements.getnetheriteblock.title": "Get netherite block",
+      "advancements.get_netherite.descr": "Pick up a netherite ingot",
+      "block.advanced_mod.copper": "Copper",
+      "advancements.grassblock.title": "Get ready for first fight",
+      "item.advanced_mod.enderium_ingot": "Enderium Ingot",
+      "advancements.getironblock.descr": "Craft a Ironblock",
+      "advancements.getdiamond.title": "Get diamond",
+      "itemGroup.tabaddons": "Addons",
+      "advancements.getgoldingot.title": "Get gold ingot",
+      "advancements.secondfight.descr": "Craft a Stone sword and fight again!",
+      "advancements.getredstone.descr": "Mine redstone",
+      "advancements.firstpickaxe.title": "First pickaxe",
+      "advancements.get_sticks.title": "Get Sticks",
+      "advancements.getredstoneblock.descr": "Craft a redstone block",
+      "item.advanced_mod.rawcopper": "Raw Copper",
+      "advancements.craftan_axe.descr": "Craft a Wooden Axe"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "1",
+        "children": []
+      },
+      {
+        "name": "copper",
+        "children": []
+      },
+      {
+        "name": "Gui",
+        "children": []
+      },
+      {
+        "name": "enderium",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "advanced_mod",
+    "modName": "advanced mod",
+    "version": "1.0.0",
+    "author": "GVspeed",
+    "websiteURL": "http://pggrgames.tk",
+    "license": "Custom license",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": true,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created by GVspeed",
+    "modElementsPackage": "net.mcreator.advancedmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}

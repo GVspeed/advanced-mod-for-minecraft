@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:stone_sword"
+    },
+    "title": {
+      "translate": "advancements.secondfight.title"
+    },
+    "description": {
+      "translate": "advancements.secondfight.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "secondfight": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:stone_sword",
+            "durability": {
+              "min": 0,
+              "max": 16000
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "advanced_mod:firstshowel"
+}

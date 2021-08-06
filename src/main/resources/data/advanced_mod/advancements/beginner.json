@@ -1,0 +1,31 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "minecraft:oak_log"
+    },
+    "title": {
+      "translate": "advancements.beginner.title"
+    },
+    "description": {
+      "translate": "advancements.beginner.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "beginner": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "item": {
+          "item": "minecraft:oak_log"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  }
+}
