@@ -8,7 +8,7 @@
     "name": "Enderium Ingot",
     "rarity": "EPIC",
     "creativeTab": {
-      "value": "CUSTOM:Addons"
+      "value": "No creative tab entry"
     },
     "stackSize": 64,
     "enchantability": 0,

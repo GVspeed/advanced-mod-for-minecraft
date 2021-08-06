@@ -1,14 +1,17 @@
 modLoader="javafml"
 loaderVersion="[36,)"
-license="Custom license"
+license="PGGRgames Recources license"
 
 [[mods]]
 modId="advanced_mod"
-version="1.0.0"
-displayName="advanced mod"
-credits="Created by GVspeed"
+version="Update 1 2021/2022"
+displayName="Advanced mod"
+credits="..."
 displayURL="http://pggrgames.tk"
-authors="GVspeed"
+authors="GVspeed aka Yannick Galow"
+description='''
+Follow on github for Updates
+'''
 
 [[dependencies.advanced_mod]]
     modId="minecraft"

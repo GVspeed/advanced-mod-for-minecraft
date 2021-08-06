@@ -8,7 +8,6 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
-import net.mcreator.advancedmod.itemgroup.AddonsItemGroup;
 import net.mcreator.advancedmod.AdvancedModModElements;
 
 @AdvancedModModElements.ModElement.Tag
@@ -25,7 +24,7 @@ public class EnderiumIngotItem extends AdvancedModModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(AddonsItemGroup.tab).maxStackSize(64).isImmuneToFire().rarity(Rarity.EPIC));
+			super(new Item.Properties().group(null).maxStackSize(64).isImmuneToFire().rarity(Rarity.EPIC));
 			setRegistryName("enderium_ingot");
 		}
 
