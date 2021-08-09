@@ -414,6 +414,357 @@
       "ids": {},
       "registry_name": "enderium_ingot",
       "path": "~/enderium"
+    },
+    {
+      "name": "EnderiumOreEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enderium_ore_entity_walks_on_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EnderiumOre",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enderium_ore",
+      "path": "~/enderium"
+    },
+    {
+      "name": "CopperHelmetrecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_helmetrecipe",
+      "path": "~/copper"
+    },
+    {
+      "name": "CopperArmorChestplate",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_armor_chestplate",
+      "path": "~/copper"
+    },
+    {
+      "name": "CopperArmorLeggings",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_armor_leggings",
+      "path": "~/copper"
+    },
+    {
+      "name": "CopperArmorBoots",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_armor_boots",
+      "path": "~/copper"
+    },
+    {
+      "name": "Copperblock",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copperblock",
+      "path": "~/copper"
+    },
+    {
+      "name": "EnderiumSmeltingRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enderium_smelting_recipe",
+      "path": "~/enderium"
+    },
+    {
+      "name": "CopperPickaxe",
+      "type": "tool",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_pickaxe",
+      "path": "~/copper"
+    },
+    {
+      "name": "CopperPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_pickaxe_recipe",
+      "path": "~/copper"
+    },
+    {
+      "name": "TestGui",
+      "type": "gui",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "test_gui",
+      "path": "~/menus and keybindings"
+    },
+    {
+      "name": "TestMenuOnKeyPressed",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "test_menu_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TestMenu",
+      "type": "keybind",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "test_menu",
+      "path": "~/menus and keybindings"
+    },
+    {
+      "name": "FreeDirt",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "free_dirt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/functions"
+    },
+    {
+      "name": "FreeWool",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "free_wool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/functions"
+    },
+    {
+      "name": "FreeGrass",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "free_grass",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/functions"
+    },
+    {
+      "name": "FreeSand",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "free_sand",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/functions"
+    },
+    {
+      "name": "FreeIce",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "free_ice",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/functions"
+    },
+    {
+      "name": "Freefence",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "freefence",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/functions"
+    },
+    {
+      "name": "Freestring",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "freestring",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/functions"
+    },
+    {
+      "name": "Freecarpet",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "freecarpet",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/functions"
+    },
+    {
+      "name": "Owneressen",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "owneressen",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/functions"
+    },
+    {
+      "name": "TestMenuOnKeyReleased",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "test_menu_on_key_released",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -430,8 +781,10 @@
       "advancements.firsthoe.title": "First hoe",
       "advancements.getiron.title": "Get Iron",
       "item.advanced_mod.copper_armor_boots": "Copper Boots",
+      "key.advanced_mod.test_menu": "Test Menu",
       "advancements.firsthoe.descr": "Craft a wooden hoe and use it",
       "advancements.secondfight.title": "Second fight!",
+      "item.advanced_mod.copper_pickaxe": "Copper Pickaxe",
       "advancements.craftan_axe.title": "First Axe",
       "advancements.getredstoneblock.title": "Get redstone block",
       "advancements.getdiamondblock.title": "Get diamond block",
@@ -447,6 +800,7 @@
       "advancements.upgrade_2shovel.descr": "Craft a stone shovel and use it",
       "advancements.getnetheriteblock.descr": "Craft a netherite block",
       "advancements.get_coalblock.title": "Get Coalblock",
+      "block.advanced_mod.enderium_ore": "Enderium Ore",
       "advancements.firstpickaxe.descr": "Craft a wooden pickaxe!",
       "advancements.getgoldingot.descr": "Pick up a gold ingot",
       "advancements.get_netherite.title": "Get Netherite",
@@ -502,6 +856,14 @@
       },
       {
         "name": "enderium",
+        "children": []
+      },
+      {
+        "name": "menus and keybindings",
+        "children": []
+      },
+      {
+        "name": "functions",
         "children": []
       }
     ]

@@ -1,0 +1,15 @@
+{
+  "_fv": 18,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "NUMPADENTER",
+    "keyBindingName": "Test Menu",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "TestMenuOnKeyPressed"
+    },
+    "onKeyReleased": {
+      "name": "TestMenuOnKeyReleased"
+    }
+  }
+}

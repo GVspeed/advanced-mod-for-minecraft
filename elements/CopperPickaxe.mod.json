@@ -19,12 +19,13 @@
     "usageCount": 100,
     "blocksAffected": [],
     "hasGlow": false,
-    "repairItems": [],
-    "immuneToFire": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:CopperIngot"
+      }
+    ],
+    "immuneToFire": true,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false,
-    "onRightClickedInAir": {
-      "name": "CopperPickaxeRightClickedInAir"
-    }
+    "damageOnCrafting": false
   }
 }
