@@ -1,5 +1,10 @@
 package net.mcreator.advancedmod.procedures;
 
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.TickEvent;
+import net.minecraftforge.common.MinecraftForge;
+
+import net.minecraft.world.IWorld;
 import net.minecraft.potion.Effects;
 import net.minecraft.potion.EffectInstance;
 import net.minecraft.entity.LivingEntity;
@@ -22,8 +27,37 @@ public class CopperArmorHelmetTickEventProcedure extends AdvancedModModElements.
 				AdvancedModMod.LOGGER.warn("Failed to load dependency entity for procedure CopperArmorHelmetTickEvent!");
 			return;
 		}
+		if (dependencies.get("world") == null) {
+			if (!dependencies.containsKey("world"))
+				AdvancedModMod.LOGGER.warn("Failed to load dependency world for procedure CopperArmorHelmetTickEvent!");
+			return;
+		}
 		Entity entity = (Entity) dependencies.get("entity");
-		if (entity instanceof LivingEntity)
-			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.REGENERATION, (int) 999999999, (int) 3));
+		IWorld world = (IWorld) dependencies.get("world");
+		new Object() {
+			private int ticks = 0;
+			private float waitTicks;
+			private IWorld world;
+			public void start(IWorld world, int waitTicks) {
+				this.waitTicks = waitTicks;
+				MinecraftForge.EVENT_BUS.register(this);
+				this.world = world;
+			}
+
+			@SubscribeEvent
+			public void tick(TickEvent.ServerTickEvent event) {
+				if (event.phase == TickEvent.Phase.END) {
+					this.ticks += 1;
+					if (this.ticks >= this.waitTicks)
+						run();
+				}
+			}
+
+			private void run() {
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.REGENERATION, (int) 10, (int) 3));
+				MinecraftForge.EVENT_BUS.unregister(this);
+			}
+		}.start(world, (int) 20);
 	}
 }

@@ -100,6 +100,7 @@ public class CopperArmorItem extends AdvancedModModElements.ModElement {
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("entity", entity);
+					$_dependencies.put("world", world);
 					CopperArmorHelmetTickEventProcedure.executeProcedure($_dependencies);
 				}
 			}
@@ -118,6 +119,7 @@ public class CopperArmorItem extends AdvancedModModElements.ModElement {
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("entity", entity);
+					$_dependencies.put("world", world);
 					CopperArmorBodyTickEventProcedure.executeProcedure($_dependencies);
 				}
 			}
@@ -136,6 +138,7 @@ public class CopperArmorItem extends AdvancedModModElements.ModElement {
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("entity", entity);
+					$_dependencies.put("world", world);
 					CopperArmorLeggingsTickEventProcedure.executeProcedure($_dependencies);
 				}
 			}
@@ -154,6 +157,7 @@ public class CopperArmorItem extends AdvancedModModElements.ModElement {
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("entity", entity);
+					$_dependencies.put("world", world);
 					CopperArmorBootsTickEventProcedure.executeProcedure($_dependencies);
 				}
 			}
