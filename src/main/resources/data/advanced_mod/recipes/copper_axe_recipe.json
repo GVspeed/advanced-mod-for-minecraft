@@ -1,0 +1,25 @@
+{
+  "group": "advanced_mod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "advanced_mod:copper_ingot"
+    },
+    {
+      "item": "advanced_mod:copper_ingot"
+    },
+    {
+      "item": "advanced_mod:copper_ingot"
+    },
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "result": {
+    "item": "advanced_mod:copper_axe",
+    "count": 1
+  }
+}

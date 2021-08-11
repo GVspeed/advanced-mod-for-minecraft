@@ -9,7 +9,6 @@
   "advancements.firsthoe.title": "First hoe",
   "advancements.getiron.title": "Get Iron",
   "item.advanced_mod.copper_armor_boots": "Copper Boots",
-  "key.advanced_mod.test_menu": "Test Menu",
   "advancements.firsthoe.descr": "Craft a wooden hoe and use it",
   "advancements.secondfight.title": "Second fight!",
   "item.advanced_mod.copper_pickaxe": "Copper Pickaxe",
@@ -64,5 +63,6 @@
   "advancements.get_sticks.title": "Get Sticks",
   "advancements.getredstoneblock.descr": "Craft a redstone block",
   "item.advanced_mod.rawcopper": "Raw Copper",
+  "item.advanced_mod.copper_axe": "Copper Axe",
   "advancements.craftan_axe.descr": "Craft a Wooden Axe"
 }

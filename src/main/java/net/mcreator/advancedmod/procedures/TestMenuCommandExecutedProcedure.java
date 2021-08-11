@@ -23,35 +23,35 @@ import java.util.Map;
 import io.netty.buffer.Unpooled;
 
 @AdvancedModModElements.ModElement.Tag
-public class TestMenuOnKeyPressedProcedure extends AdvancedModModElements.ModElement {
-	public TestMenuOnKeyPressedProcedure(AdvancedModModElements instance) {
-		super(instance, 47);
+public class TestMenuCommandExecutedProcedure extends AdvancedModModElements.ModElement {
+	public TestMenuCommandExecutedProcedure(AdvancedModModElements instance) {
+		super(instance, 60);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				AdvancedModMod.LOGGER.warn("Failed to load dependency entity for procedure TestMenuOnKeyPressed!");
+				AdvancedModMod.LOGGER.warn("Failed to load dependency entity for procedure TestMenuCommandExecuted!");
 			return;
 		}
 		if (dependencies.get("x") == null) {
 			if (!dependencies.containsKey("x"))
-				AdvancedModMod.LOGGER.warn("Failed to load dependency x for procedure TestMenuOnKeyPressed!");
+				AdvancedModMod.LOGGER.warn("Failed to load dependency x for procedure TestMenuCommandExecuted!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
 			if (!dependencies.containsKey("y"))
-				AdvancedModMod.LOGGER.warn("Failed to load dependency y for procedure TestMenuOnKeyPressed!");
+				AdvancedModMod.LOGGER.warn("Failed to load dependency y for procedure TestMenuCommandExecuted!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
 			if (!dependencies.containsKey("z"))
-				AdvancedModMod.LOGGER.warn("Failed to load dependency z for procedure TestMenuOnKeyPressed!");
+				AdvancedModMod.LOGGER.warn("Failed to load dependency z for procedure TestMenuCommandExecuted!");
 			return;
 		}
 		if (dependencies.get("world") == null) {
 			if (!dependencies.containsKey("world"))
-				AdvancedModMod.LOGGER.warn("Failed to load dependency world for procedure TestMenuOnKeyPressed!");
+				AdvancedModMod.LOGGER.warn("Failed to load dependency world for procedure TestMenuCommandExecuted!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");

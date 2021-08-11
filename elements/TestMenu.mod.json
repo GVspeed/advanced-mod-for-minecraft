@@ -1,15 +1,11 @@
 {
   "_fv": 18,
-  "_type": "keybind",
+  "_type": "command",
   "definition": {
-    "triggerKey": "NUMPADENTER",
-    "keyBindingName": "Test Menu",
-    "keyBindingCategoryKey": "misc",
-    "onKeyPressed": {
-      "name": "TestMenuOnKeyPressed"
-    },
-    "onKeyReleased": {
-      "name": "TestMenuOnKeyReleased"
+    "commandName": "toggletestmenu",
+    "permissionLevel": "No requirement",
+    "onCommandExecuted": {
+      "name": "TestMenuCommandExecuted"
     }
   }
 }
