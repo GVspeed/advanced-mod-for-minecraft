@@ -7,4 +7,4 @@ Update log
 
 There been added 30 new Advancements to the mod and added copper-Armor (for the tools comes a update soon!)
 
-edited by GVspeed (Y. Galow)
+Edited by GVspeed with real name Yannick Galow
