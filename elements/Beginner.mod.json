@@ -20,6 +20,6 @@
     "parent": {
       "value": "No parent: root"
     },
-    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_damaged\" x=\"49\" y=\"12\"><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:CopperPickaxe</field></block></value><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">0</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">16000</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_damaged\" x=\"52\" y=\"36\"><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:CopperPickaxe</field></block></value><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">0</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">16000</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
   }
 }

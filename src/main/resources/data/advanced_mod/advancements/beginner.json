@@ -17,11 +17,17 @@
   },
   "criteria": {
     "beginner": {
-      "trigger": "minecraft:placed_block",
+      "trigger": "minecraft:item_durability_changed",
       "conditions": {
-        "item": {
-          "item": "minecraft:oak_log"
-        }
+        "items": [
+          {
+            "item": "advanced_mod:copper_pickaxe",
+            "durability": {
+              "min": 0,
+              "max": 16000
+            }
+          }
+        ]
       }
     }
   },

@@ -880,7 +880,7 @@
     "modName": "Advanced mod",
     "version": "Update 1 2021/2022",
     "description": "Follow on github for Updates",
-    "author": "GVspeed aka Yannick Galow",
+    "author": "GVspeed With real name Yannick Galow",
     "websiteURL": "http://pggrgames.tk",
     "license": "PGGRgames Recources license",
     "disableForgeVersionCheck": true,
@@ -890,7 +890,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.16.5",
-    "credits": "...",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.advancedmod",
     "lockBaseModFiles": false
   },
