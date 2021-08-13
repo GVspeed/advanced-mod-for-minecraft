@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "advanced_mod:items/copper-equipments-armor--tools_8"
+  }
+}

@@ -772,6 +772,87 @@
       "ids": {},
       "registry_name": "test_menu",
       "path": "~/menus and keybindings"
+    },
+    {
+      "name": "CopperSwordToolInHandTick",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_sword_tool_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CopperSword",
+      "type": "tool",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_sword",
+      "path": "~/copper"
+    },
+    {
+      "name": "CopperSwordrecipe",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_swordrecipe",
+      "path": "~/copper"
+    },
+    {
+      "name": "CopperHoe",
+      "type": "tool",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_hoe",
+      "path": "~/copper"
+    },
+    {
+      "name": "CopperHoerecipe",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_hoerecipe",
+      "path": "~/copper"
+    },
+    {
+      "name": "CopperShowel",
+      "type": "tool",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_showel",
+      "path": "~/copper"
+    },
+    {
+      "name": "Copperspaderecipe",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copperspaderecipe",
+      "path": "~/copper"
     }
   ],
   "variable_elements": [],
@@ -795,8 +876,10 @@
       "advancements.getredstoneblock.title": "Get redstone block",
       "advancements.getdiamondblock.title": "Get diamond block",
       "advancements.getdiamond.descr": "Mine diamond",
+      "item.advanced_mod.copper_showel": "Copper spade",
       "block.advanced_mod.copper_ore": "Copper Ore",
       "advancements.getgoldblock.descr": "Craft a Gold block",
+      "item.advanced_mod.copper_hoe": "Copper Hoe",
       "item.advanced_mod.copper_armor_helmet": "Copper Helmet",
       "advancements.getcoal.title": "Get coal",
       "advancements.beginner.title": "Challange",
@@ -819,6 +902,7 @@
       "advancements.getlapisblock.title": "Get lapis block",
       "advancements.firstfight.descr": "fight for the Advancement!",
       "advancements.getlapis.descr": "Mine lapis",
+      "item.advanced_mod.copper_sword": "Copper Sword",
       "advancements.getlapis.title": "Get lapis",
       "advancements.getlapisblock.descr": "Craft lapis block",
       "advancements.firstshowel.title": "First shovel",
