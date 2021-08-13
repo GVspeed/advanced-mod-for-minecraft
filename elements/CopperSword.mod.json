@@ -11,12 +11,12 @@
       "value": "CUSTOM:Addons"
     },
     "toolType": "Sword",
-    "harvestLevel": 1,
-    "efficiency": 4.0,
-    "attackSpeed": 1.0,
-    "enchantability": 2,
-    "damageVsEntity": 4.0,
-    "usageCount": 100,
+    "harvestLevel": 3,
+    "efficiency": 10.0,
+    "attackSpeed": 3.5,
+    "enchantability": 10,
+    "damageVsEntity": 10.5,
+    "usageCount": 1561,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
@@ -24,7 +24,7 @@
         "value": "CUSTOM:CopperIngot"
       }
     ],
-    "immuneToFire": false,
+    "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "onItemInUseTick": {

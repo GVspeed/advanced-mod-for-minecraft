@@ -24,11 +24,11 @@ public class CopperPickaxeItem extends AdvancedModModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new PickaxeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 100;
+				return 1561;
 			}
 
 			public float getEfficiency() {
-				return 4f;
+				return 8.5f;
 			}
 
 			public float getAttackDamage() {
@@ -36,17 +36,17 @@ public class CopperPickaxeItem extends AdvancedModModElements.ModElement {
 			}
 
 			public int getHarvestLevel() {
-				return 1;
+				return 3;
 			}
 
 			public int getEnchantability() {
-				return 2;
+				return 10;
 			}
 
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(CopperIngotItem.block, (int) (1)));
 			}
-		}, 1, -3f, new Item.Properties().group(AddonsItemGroup.tab).isImmuneToFire()) {
+		}, 1, -2f, new Item.Properties().group(AddonsItemGroup.tab).isImmuneToFire()) {
 		}.setRegistryName("copper_pickaxe"));
 	}
 }

@@ -30,29 +30,29 @@ public class CopperSwordItem extends AdvancedModModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new SwordItem(new IItemTier() {
 			public int getMaxUses() {
-				return 100;
+				return 1561;
 			}
 
 			public float getEfficiency() {
-				return 4f;
+				return 10f;
 			}
 
 			public float getAttackDamage() {
-				return 2f;
+				return 8.5f;
 			}
 
 			public int getHarvestLevel() {
-				return 1;
+				return 3;
 			}
 
 			public int getEnchantability() {
-				return 2;
+				return 10;
 			}
 
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(CopperIngotItem.block, (int) (1)));
 			}
-		}, 3, -3f, new Item.Properties().group(AddonsItemGroup.tab)) {
+		}, 3, -0.5f, new Item.Properties().group(AddonsItemGroup.tab).isImmuneToFire()) {
 			@Override
 			public void inventoryTick(ItemStack itemstack, World world, Entity entity, int slot, boolean selected) {
 				super.inventoryTick(itemstack, world, entity, slot, selected);

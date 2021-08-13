@@ -24,7 +24,7 @@ public class CopperHoeItem extends AdvancedModModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new HoeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 100;
+				return 1561;
 			}
 
 			public float getEfficiency() {
@@ -32,21 +32,21 @@ public class CopperHoeItem extends AdvancedModModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 2f;
+				return 8.5f;
 			}
 
 			public int getHarvestLevel() {
-				return 1;
+				return 3;
 			}
 
 			public int getEnchantability() {
-				return 2;
+				return 10;
 			}
 
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(CopperIngotItem.block, (int) (1)));
 			}
-		}, 0, -3f, new Item.Properties().group(AddonsItemGroup.tab)) {
+		}, 0, -0.5f, new Item.Properties().group(AddonsItemGroup.tab).isImmuneToFire()) {
 		}.setRegistryName("copper_hoe"));
 	}
 }
