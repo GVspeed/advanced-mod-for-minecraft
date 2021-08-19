@@ -2,6 +2,41 @@
 
 Update log
 
+Update 3 2021/2022
+
+I added a new Creative tab with the name Java models. The tab includes Java models some i made (beta only*)
+
+A new feature is also a timer with the keybinds reset (NUMPAD1) and start/stop (NUMPAD0).
+
+There comes also some short commands in the Modification. There are only 2 commands right now (/day and /night).
+
+I added (Beta only*) Sideslabs. Watch Picture below!!!
+
+<a href="https://imgur.com/eDvPS7X"><img src="https://i.imgur.com/eDvPS7X.png" title="source: imgur.com" /></a>
+
+Cobblestone Side slab
+
+<a href="https://imgur.com/zyUnGtx"><img src="https://i.imgur.com/zyUnGtx.png" title="source: imgur.com" /></a>
+
+Stone side slab
+
+<a href="https://imgur.com/XHw7Cqt"><img src="https://i.imgur.com/XHw7Cqt.png" title="source: imgur.com" /></a>
+
+Copper side slab
+
+<a href="https://imgur.com/DgQNn8F"><img src="https://i.imgur.com/DgQNn8F.png" title="source: imgur.com" /></a>
+
+Gold side slab
+
+<a href="https://imgur.com/HSMqHx4"><img src="https://i.imgur.com/HSMqHx4.png" title="source: imgur.com" /></a>
+
+Diamond side slab
+
+*beta items can be deleted!!!
+
+Have fun GVspeed
+
+
 *Update 2 2021/2022*
 --------------------
 
