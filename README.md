@@ -1,5 +1,7 @@
 # advanced-mod-for-minecraft
 
+The Project is paused because i had no ideas and no time. But i upload some skripts very soon!
+
 Update log
 
 Update 3 2021/2022
