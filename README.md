@@ -1,6 +1,6 @@
 # advanced-mod-for-minecraft
 
-The Project is paused because i had no ideas and no time. But i upload some skripts very soon!
+This Project are finished! #(check out my account to see new projects)
 
 Update log
 
