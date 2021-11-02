@@ -1,6 +1,6 @@
 # advanced-mod-for-minecraft
 
-This Project are finished! #(check out my account to see new projects)
+#This Project are finished! *(check out my account to see new projects)
 
 Update log
 
